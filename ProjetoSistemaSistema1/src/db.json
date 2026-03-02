@@ -34,6 +34,11 @@
       "id": "b431",
       "nome": "xxxxxxxxxx",
       "cidade": "xxxxxxxxxxxxx"
+    },
+    {
+      "id": "98d6",
+      "nome": "asda",
+      "cidade": "asdasd"
     }
   ],
   "produtos": [
@@ -79,6 +84,12 @@
       "nome": "sdfd",
       "cidade": "asdfsd",
       "telefone": "444"
+    },
+    {
+      "id": "7106",
+      "nome": "asdada",
+      "cidade": "asda",
+      "telefone": "3223"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

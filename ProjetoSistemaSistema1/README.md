@@ -14,3 +14,18 @@ The React Compiler is currently not compatible with SWC. See [this issue](https:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+## acesso a banco de dados
+
+1- de o comando ls 
+2- cd da pasta
+3- cd .\src\ 
+4-npx json-server --watch db.json --port 3000
+
+tem que aparecer:  Endpoints:
+http://localhost:3000/clientes
+http://localhost:3000/produtos
+http://localhost:3000/vendas
+http://localhost:3000/Fornecedores
