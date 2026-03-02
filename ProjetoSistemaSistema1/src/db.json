@@ -1,0 +1,85 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "Fazenda Boa Vista",
+      "cidade": "Muriaé"
+    },
+    {
+      "id": "2",
+      "nome": "Sítio do Cedro",
+      "cidade": "Miraí"
+    },
+    {
+      "id": "1303",
+      "nome": "fazenda teste",
+      "cidade": "Muriaé"
+    },
+    {
+      "id": "9c6d",
+      "nome": "sdfsdf",
+      "cidade": "sfsdfsdfsdf"
+    },
+    {
+      "id": "7858",
+      "nome": "sdfdsfdsf",
+      "cidade": "sdfsdfsdfsd"
+    },
+    {
+      "id": "78bf",
+      "nome": "reinaldo",
+      "cidade": "teste"
+    },
+    {
+      "id": "b431",
+      "nome": "xxxxxxxxxx",
+      "cidade": "xxxxxxxxxxxxx"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Fertilizante NPK 10-10-10",
+      "preco": 150,
+      "estoque": 50,
+      "fornecedorId": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Semente de Milho (Saco 20kg)",
+      "preco": 420,
+      "estoque": 15,
+      "fornecedorId": "2"
+    }
+  ],
+  "vendas": [
+    {
+      "id": "1",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK 10-10-10",
+      "quantidade": 10,
+      "valorTotal": 1500
+    }
+  ],
+  "Fornecedores": [
+    {
+      "id": "1",
+      "nome": "AgroDistribuidora Silva",
+      "cidade": "Viçosa",
+      "telefone": "32 99999-9999"
+    },
+    {
+      "id": "2",
+      "nome": "Sementes Brasil",
+      "cidade": "Belo Horizonte",
+      "telefone": "31 98888-8888"
+    },
+    {
+      "id": "82e1",
+      "nome": "sdfd",
+      "cidade": "asdfsd",
+      "telefone": "444"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
