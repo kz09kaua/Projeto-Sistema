@@ -5,10 +5,9 @@ import { Forne12 } from "./Forne12";
 export function Fornecedores() {
   const [fornecedores, setFornecedores] = useState([]);
 
-  const carregarFornecedores = () => {
-    api.get("/Fornecedores").then((res) => {
-      setFornecedores(res.data);
-    });
+  const carregarFornecedores = async () => {
+    const res = await api.get("/fornecedores");
+    setFornecedores(res.data);
   };
 
   useEffect(() => {
@@ -28,14 +27,16 @@ export function Fornecedores() {
       </h2>
 
       <div className="space-y-4">
-        {fornecedores.map((Fornecedor) => (
+        {fornecedores.map((fornecedor) => (
           <div
-            key={Fornecedor.id}
+            key={fornecedor.id}
             className="p-4 border-l-4 border-green-500 rounded shadow bg-white"
           >
-            <p className="font-bold uppercase">{Fornecedor.nome}</p>
+            <p className="font-bold uppercase">
+              {fornecedor.nome}
+            </p>
             <p className="text-gray-500 italic text-sm">
-              {Fornecedor.cidade}
+              {fornecedor.cidade}
             </p>
           </div>
         ))}

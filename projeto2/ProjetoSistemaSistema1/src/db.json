@@ -1,0 +1,103 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nomeFazenda": "Fazenda Boa Vista",
+      "cidade": "Muriaé",
+      "email": "contato@boavista.com",
+      "whatsapp": "(32) 99999-0001"
+    },
+    {
+      "id": "2",
+      "nomeFazenda": "Sítio do Cedro",
+      "cidade": "Miraí",
+      "email": "contato@sitiodocedro.com",
+      "whatsapp": "(32) 99999-0002"
+    },
+    {
+      "id": "1303",
+      "nomeFazenda": "fazenda teste",
+      "cidade": "Muriaé",
+      "email": "fazendateste@email.com",
+      "whatsapp": "(32) 99999-1303"
+    },
+    {
+      "id": "9c6d",
+      "nomeFazenda": "sdfsdf",
+      "cidade": "sfsdfsdfsdf",
+      "email": "cliente9c6d@email.com",
+      "whatsapp": "(32) 99999-9606"
+    },
+    {
+      "id": "78bf",
+      "nomeFazenda": "reinaldo",
+      "cidade": "teste",
+      "email": "reinaldo@email.com",
+      "whatsapp": "(32) 99999-7800"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Fertilizante NPK 10-10-10",
+      "preco": 150,
+      "estoque": 50
+    },
+    {
+      "id": "2",
+      "nome": "Semente de Milho (Saco 20kg)",
+      "preco": 420,
+      "estoque": 15
+    }
+  ],
+  "vendas": [
+    {
+      "id": "1",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK",
+      "quantidade": 10,
+      "valorTotal": 1500
+    },
+    {
+      "id": "92fb",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK 10-10-10",
+      "quantidade": 3,
+      "valorTotal": 450,
+      "data": "03/03/2026"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "1",
+      "nome": "AgroDistribuidora Silva",
+      "cidade": "Viçosa",
+      "telefone": "32 99999-9999"
+    },
+    {
+      "id": "2",
+      "nome": "Sementes Brasil",
+      "cidade": "Belo Horizonte",
+      "telefone": "31 98888-8888"
+    },
+    {
+      "id": "82e1",
+      "nome": "sdfd",
+      "cidade": "asdfsd",
+      "telefone": "444"
+    },
+    {
+      "id": "7106",
+      "nome": "asdada",
+      "cidade": "asda",
+      "telefone": "3223"
+    },
+    {
+      "id": "1afc",
+      "nome": "sadas",
+      "cidade": "asda",
+      "telefone": "213424"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
